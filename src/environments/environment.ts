@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyCeGDyFVSGnHHiZrNZxvFNhDQVVqjm_iis',
+    authDomain: 'emrod-firebase-tutorial.firebaseapp.com',
+    databaseURL: 'https://emrod-firebase-tutorial.firebaseio.com',
+    projectId: 'emrod-firebase-tutorial',
+    storageBucket: '',
+    messagingSenderId: '419446076082'
+  }
 };
 
 /*
