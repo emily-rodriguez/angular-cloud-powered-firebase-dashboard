@@ -5,12 +5,12 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: 'AIzaSyCbt5N_Z44pT1hdGf18dD_uwtYnU7RNcE0',
-    authDomain: 'angular-firebase-grid-dash.firebaseapp.com',
-    databaseURL: 'https://angular-firebase-grid-dash.firebaseio.com',
-    projectId: 'angular-firebase-grid-dash',
+    apiKey: 'AIzaSyCeGDyFVSGnHHiZrNZxvFNhDQVVqjm_iis',
+    authDomain: 'emrod-firebase-tutorial.firebaseapp.com',
+    databaseURL: 'https://emrod-firebase-tutorial.firebaseio.com',
+    projectId: 'emrod-firebase-tutorial',
     storageBucket: '',
-    messagingSenderId: '985074974658'
+    messagingSenderId: '419446076082'
   }
 };
 
