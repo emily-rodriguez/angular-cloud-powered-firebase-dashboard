@@ -7,10 +7,10 @@ import { map } from 'rxjs/operators';
 
 const redirectUnauthorizedToLogin = () => redirectUnauthorizedTo(['']);
 const redirectLoggedInToProfile = () =>
-  map(user => user ? ['profile', (user as any).uid]: true);
+  map(user => user ? ['profile', (user as any).uid] : true);
 const onlyAllowSelf = next =>
   map(
-    user => (!!user && next.params.id == (user as any).uid) || ['']
+    user => (!!user && next.params.id === (user as any).uid) || ['']
   );
 
 const routes: Routes = [
